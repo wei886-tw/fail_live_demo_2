@@ -20,7 +20,7 @@ export default {
     this.$http.get(url).then((res) => {
       console.log(res);
       this.data = res.data.results[0];
-      console.log()
+
     });
   }
 }
